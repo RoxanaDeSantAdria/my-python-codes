@@ -1,0 +1,22 @@
+#!/usr/bin/python
+
+
+# operation = input("What should I do? Type '+' to add, '-' to subtract, '*' to multiply, '/' to divide")
+
+# if (operation is '-') : print('subtract'), number - number2
+# !/usr/bin/python
+number = input("Please enter a number")
+number2 = input("Please enter a number")
+operation = input("What should I do? Type '+' to add, '-' to subtract, '*' to multiply, '/' to divide")
+
+add = int(number) + int(number2)
+if(operation is '+'): print("summa",add)
+
+sub = int(number) - int(number2)
+if (operation is '-') : print("difference",sub)
+
+mul = int(number) * int(number2)
+if (operation is '*') : print("product",mul)
+
+div = float(number) / float(number2)
+if(operation is '/') : print("quotient",div)
